@@ -17,7 +17,7 @@ LATEST_NUMBER_OF_MESSAGES_TO_SEARCH_FOR = os.getenv('LATEST_NUMBER_OF_MESSAGES_T
 gmail_toolset = GmailToolset(
         GOOGLE_CLIENT_ID,
         GOOGLE_CLIENT_SECRET,
-        tool_filter=["gmail_users_messages_list", "gmail_users_messages_get", "gmail_users_messages_attachments_get", "gmail_users_messages_import"]
+        #tool_filter=["gmail_users_messages_list", "gmail_users_messages_get", "gmail_users_messages_attachments_get", "gmail_users_messages_import"]
 )
 email_subject = "Security Alert",
 root_agent = Agent(
